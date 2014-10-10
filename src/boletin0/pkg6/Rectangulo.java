@@ -20,14 +20,14 @@ public class Rectangulo {
         
     }
     //metodos de acceso get&set (cor é public non precisa metodo de acceso
-    public double setBase(){
-        return 10;
+    public void setBase(double b){
+        base = b;
         }
     public double setaltura(){
     return 20;
     }
     public double getBase(){
-        getvalor;
+        return base;
         
     }
 }
